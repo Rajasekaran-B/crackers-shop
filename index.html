@@ -93,16 +93,16 @@
         }
 
         .logo-section {
-            width: 150px;
-            min-width: 125px;
+            width: 110px;
+            min-width: 105px;
              height: 115px;
             text-align: center;
            
         }
 
         .logo-section img {
-            width: 150px;
-            height: 115px;
+            width: 110px;
+            height: 100px;
 background-color: #424281;
             object-fit: contain;
  padding-top: 8px;
@@ -112,8 +112,8 @@ background-color: #424281;
 
         .company-info {
             flex: 1;
- height: 115px;
-            padding-left: 5%;
+ height: 100px;
+            padding-left: 3%;
 
             min-width: 0;
         }
@@ -656,11 +656,9 @@ background-color: #424281;
 
         <div class="logo-section">
 
-            <img
-                src="images/compressed.jpg"
-                alt="Company Logo"
-                 crossorigin="anonymous"
-            >
+<img src="https://raw.githubusercontent.com/Rajasekaran-B/crackers-shop/main/images/compressed.jpg" alt="Crackers">
+
+
 
         </div>
 
@@ -704,6 +702,7 @@ background-color: #424281;
         type="text"
         name="customerName"
         placeholder="Customer name"
+    
     >
 
     <div
@@ -1416,12 +1415,6 @@ html2canvas: {
     }
 
 };
-html2canvas(element, {
-    useCORS: true,
-    allowTaint: false
-}).then(canvas => {
-    const imgData = canvas.toDataURL('image/jpg');
-});
 
     try {
 
