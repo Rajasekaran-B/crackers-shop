@@ -2,5 +2,7 @@ Sales invoice website with below functionality
 
 Form to enter the customer and order details.
 Product details with Add new button at bottom.
+  Parcel charges and discount fields are editable.
+  Total will be calculated as dynamic as per Parcel and Discount field values.
 Preview to view the entered details in read-only mode.
 Download the same in PDF with same look and feel.
