@@ -1,6 +1,6 @@
 Sales invoice website with below functionality 
 
-Form for customer and order details.
+Form to enter the customer and order details.
 Product details with Add new button at bottom.
 Preview to view the entered details in read-only mode.
 Download the same in PDF with same look and feel.
